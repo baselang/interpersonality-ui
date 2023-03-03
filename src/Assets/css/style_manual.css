@@ -1,0 +1,121 @@
+.privacy_desc_textwrap{word-wrap: break-word !important;}
+.ourmodel_div_with_margin{margin-left: 30px;}
+.guide_sales_btn{width: auto !important;}
+.signup_signupwithemail_btn{margin-top: 20px;}
+.next_step_mark{height: 1em; width: 1em; margin: 0 .05em 0 .1em; vertical-align: -0.1em;}
+.friends_interpersonal_img{width: 100px !important;height: 100px !important;}
+
+body.template-privacy #site-footer ul.menu li.privacy > a { color: #333; }
+
+body.template-terms #site-footer ul.menu li.terms > a { color: #333; }
+
+body.template-support #site-footer ul.menu li.support > a { color: #333; }
+
+body.template-our-team #site-footer ul.menu li.our-team > a { color: #333; }
+
+body.template-press #site-footer ul.menu li.press > a { color: #333; }
+
+body.template-contact #site-footer ul.menu li.contact > a { color: #333; }
+
+body.template-collaborateresearch #site-footer ul.menu li.collaborateresearch > a { color: #333; }
+
+body.template-phdreviewprocess #site-footer ul.menu li.phdreviewprocess > a { color: #333; }
+
+body.template-researchfooter #site-footer ul.menu li.researchfooter > a { color: #333; }
+
+body.template-ourmodelfooter #site-footer ul.menu li.ourmodelfooter > a { color: #333; }
+
+.li_style_none{list-style-type: none;}
+
+.li_style_bullet{ list-style: none; }
+  
+.li_style_bullet li::before { content: "\2022";   color:black;  display: inline-block;  width: 1em; margin-left: -0.9em; font-weight: bold; font-size:1.1rem; } 
+
+.li_style_bullet_what_next { list-style: none; }
+
+.li_style_bullet_what_next li::before { content: "\2022"; display: inline-block;  width: 1em; margin-left: -0.9em; font-weight: bold; font-size:1.7rem; } 
+
+.research-sidebar ul.menu li a .icon { display: inline-block; margin-right: 9px; }
+
+.research-sidebar ul.menu li a.active { color: #0AA2BD; font-weight: 700;}
+
+.research-sidebar ul.menu li a {padding: 0; }
+
+.research-sidebar ul.menu li:hover > a { background-color: #F6F6F6; }
+
+.research-sidebar-sticky-wrapper { width: 400px; }
+
+.research_remove_paragraph_bottom_margin{margin-block-end: 0 !important; margin-bottom: 0 !important;}
+
+.content_ol, .content_ul{font-size: 20px; color: #777777; line-height: 30px; }
+
+.content_ul li {color: #777777;}
+
+.content_ol li {margin-bottom: 15px;}
+
+@media (max-width: 575px){
+    .content_ol, .content_ul{font-size: 22px; }
+}
+
+.content_ol.one li{padding: 5px 0px;}
+
+.research_article_ol li{padding: 5px 0px;}
+
+.collaborate_on_reasearch li{padding: 5px 0px;}
+
+.language_dropdown{padding-right: 16px !important;}
+
+img.emoji { height: 1em !important; }
+
+.test-header .language-dropdown select{padding-right: 10px;}
+
+@media (max-width: 1055px){.page-guides .contetnttt_moduleee .embed-block {border: 1px solid var(--text-color-level3, rgba(77, 80, 85, 0.1)) !important;border-radius: 8px !important;box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.08) !important;}}
+
+.page-guides .contetnttt_moduleee .embed-block {height: 1100px!important;}
+
+/* for fixing the problem of age selection dropdown in spansh */
+/* start */
+.test_select{max-width: fit-content;}
+.test_select select{padding-right: 50px;}
+/* end */
+
+/* for fixing the problem of learn more arrow issue */
+/* start */
+.template .home-btn-link { position: relative; padding-right: 22px; font-size: 20px; color: #0AA2BD; font-weight: 700; }
+.template .home-btn-link:hover { color: #0999B2; text-decoration: none; }
+.template .home-btn-link img{width: 16px; height: 18px;}
+.template .home-btn-link:hover > img{margin-left: 3px;}
+.template .home-btn-link img:hover{margin-left: 3px;}
+@media (max-width: 575px) { .template .home-btn-link { font-size: 22px; } }
+/* end */
+
+.email-exist{margin: 0; padding: 18px 0 8px; font-size: 14px; line-height: 21px; color: #aaa; text-align: center; display:none}
+.email-exist-err{margin: 0; padding: 18px 0 8px; font-size: 14px; line-height: 21px; color: #aaa; text-align: center;}
+
+/* couple guide*/
+.textcouple { font-family: serif !important}
+/*END*/
+.email-err-dynamic{display: none;margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #aaa;}
+.p_with_emoji{margin-bottom: 30px !important;}
+
+
+/* Guide Consent */
+
+.Guide-consent-container{max-width: 900px; padding-left: 130px; padding-right: 130px; padding-top: 80px; margin-bottom: 80px;}
+.Guide-consent-container .row{display: block;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+.Guide-consent-container .agree_btn{width: 330px;}
+.Guide-consent-container .disagree_btn{margin-left: 50px;color: #777;}
+.inner-row{display: flex;}
+.inner-row p{line-height: 70px !important;}
+.privacy-consent-modal-dialog{margin-top: 80px !important;}
+.cancel-order-popup{margin-top: 256px !important;}
+
+@media (max-width: 575px){.Guide-consent-container .agree_btn{width: 100%;}.Guide-consent-container{max-width: 900px; padding-left: 20px; padding-right: 20px; padding-top: 80px; margin-bottom: 80px; } .Guide-consent-container .disagree_btn{width: 100%;display: inline-block;text-align: center; margin-top: 20px;margin-left: 0;} .Guide-consent-container .row{padding: 0 20px;} .inner-row{display: block;} .privacy-consent-modal-dialog{margin-top: 70px !important;}}
+/* END */
+
+.fb_acc_exist_btns  > a{ display: block; min-width: 250px; width: auto; height: 70px; margin: 0 5px; background-color: #0AA2BD; border-radius: 5px; font-size: 18px; line-height: 70px; color: #FFFFFF; font-weight: 700; text-align: center;padding: 0px 20px 0px 20px;}
+    
+@media (max-width: 575px){.fb_acc_exist_btns > a{display: block; min-width: 250px; width: auto; height: auto; margin: 0 0 10px; background-color: #0AA2BD; border-radius: 5px; font-size: 18px; line-height: normal; color: #FFFFFF; font-weight: 700; text-align: center; padding: 20px; }}

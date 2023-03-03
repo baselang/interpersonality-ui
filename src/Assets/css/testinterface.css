@@ -1,0 +1,83 @@
+
+/* Test Interface */
+
+.testinterface-container { position: relative; min-height: 100vh; padding: 30px 20px; background-color: #F6F6F6; }
+
+.testinterface { max-width: 800px; margin: 0 auto; padding-top: 48px; }
+
+.testinterface-header { max-width: 800px; margin: 0 auto 35px; }
+
+.testinterface-header h1 { margin-bottom: 13px; }
+
+.testinterface-header img.logo { display: block; margin: 0 auto 16px; }
+
+.testinterface-header p { font-size: 16px; line-height: 26px; color: #AAAAAA; font-weight: 700; letter-spacing: 0.1em; }
+
+.testinterface-header p:last-child { margin-bottom: 0; }
+
+.testinterface .form-group.submit { padding-top: 10px; margin-bottom: 28px; }
+
+.testinterface button[type="submit"] { display: block; width: 100%; height: 70px; border: 0; background-color: #0AA2BD; border-radius: 5px; padding: 0 10px; font-size: 18px; color: #FFFFFF; font-weight: 700; line-height: 70px; outline: none; }
+
+.testinterface button[type="submit"][disabled] { opacity: 0.4; }
+
+.testinterface button[type="submit"]:hover { background-color: #099AB4; }
+
+.testinterface input.form-control {height: 60px; border: 0; box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04); padding: 0 20px; margin: 0; font-size: 18px; color: #777777; outline: none;}
+
+#test-table1 tr td {
+	vertical-align: text-top;
+	text-align: left; } 
+
+#test-table1 tr th {
+	vertical-align: text-top;
+	text-align: left; }            
+
+#test-table tr td {
+	vertical-align: text-top;
+	text-align: left; } 
+
+#test-table tr th {
+	vertical-align: text-top;
+	text-align: left; }
+
+#test-table1_r tr td {	
+	vertical-align: text-top;	
+	text-align: justify; } 	
+
+#test-table1_r tr th {	
+	vertical-align: text-top;	
+	text-align: justify; }    
+
+#test-table1_r1 tr td {	
+	vertical-align: text-top;	
+	text-align: justify; } 	
+
+#test-table1_r1 tr th {	
+	vertical-align: text-top;	
+	text-align: justify; } 
+
+#test-table1_r22 tr td {	
+	vertical-align: text-top;	
+	text-align: justify; }
+
+#test-table1_r22 tr th {	
+	vertical-align: text-top;	
+	text-align: justify; }
+
+#guides-table tr th {
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+#guides-table tr td {
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+#guides-table tr th {
+	vertical-align: text-top;
+	text-align: justify;
+}
+
+/* END Test Interface */
